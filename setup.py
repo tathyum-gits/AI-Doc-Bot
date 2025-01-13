@@ -1,0 +1,29 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="document-chat",
+    version="0.1",
+    packages=find_packages(),
+    install_requires=[
+        'streamlit>=1.24.0',
+        'PyPDF2>=3.0.0',
+        'python-dotenv>=1.0.0',
+        'langchain>=0.0.200',
+        'openai>=1.0.0',
+        'anthropic>=0.3.0',
+        'google-generativeai>=0.2.0',
+        'faiss-cpu>=1.7.4',
+        'numpy>=1.24.0',
+        'pandas>=2.0.0',
+        'python-jose>=3.3.0',
+        'cryptography>=40.0.0',
+        'pytest>=7.3.1',
+        'pytest-asyncio>=0.23.0',
+        'python-multipart>=0.0.6',
+        'tqdm>=4.65.0',
+        'tenacity>=8.2.2',
+        'tiktoken>=0.4.0',
+        'reportlab>=4.0.4',
+        'psutil>=5.9.0'
+    ],
+)
