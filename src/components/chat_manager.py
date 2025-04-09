@@ -67,7 +67,7 @@ class ChatManager:
         Question: {query}
 
         Please provide a clear, accurate answer based solely on the provided context. 
-        Include specific references to documents and page numbers when applicable. 
+        Provide the answer in bullet points instead of paragraph(s)
         If the context doesn't contain enough information to answer the question fully, 
         please state that explicitly.
 
